@@ -1,1 +1,39 @@
+#include <iostream>
 
+int main() {
+    
+ float num1,num2 ;
+ char  op;
+ 
+std:: cout<<"Enter 2 numbers :" ;
+std:: cin>>num1>>num2;
+ 
+  std::cout<<"Enter an operator(+,-,*,/) :" ;
+  std::cin>> op ;
+ 
+   switch(op) {
+       case '+':
+      std:: cout<< "The result is : "<<num1 +num2 ;
+       break ;
+       
+       case '-':
+       std::cout<< "The result is : "<<num1 -num2 ;
+       break ;
+       
+       case '*':
+      std:: cout<< "The result is : "<<num1 *num2 ;
+       break ;
+       
+       
+       case '/':
+       std::cout<< "The result is : "<<num1 / num2 ;
+       break ;
+        default :
+        std::cout<< " operator is not correct"  ;
+         break;
+       
+   }
+  
+
+    return 0;
+}
